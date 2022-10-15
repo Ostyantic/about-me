@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Anthony Lopez Lab01-b</title>
-        <style>
-            h1{
-                background-color: olive;
-                color: yellow;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Anthony's Class 1 Lab</h1>
-        </header>
-        <main>
-            <h2>Please tell me a little about yourself!</h2>
-            <ul>
-                <li>What is your name?</li>
-                <li>Where do you live?</li>
-                <li>What is your favortie food?</li>
-                <li>What is your favorite color?</li>
-            </ul>
-        </main>
-        <footer> &copy Anthony Lopez 2022</footer>
-    </body>
 
+<head>
+    <title>Anthony Lopez Lab01-b</title>
+    <style>
+        h1 {
+            background-color: olive;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Anthony's Class 1 Lab</h1>
+        <h2>Please tell me a little about yourself!</h2>
+        <p style="background-color: blue; color: aqua">What is your name?</p>
+        <p style="background-color: orange; color: red">What state do you live in?</p>
+        <p style="background-color: black; color: white">What is your favorite food?</p>
+        <p style="background-color: purple; color: paleturquoise">What is your favorite color?</p>
+    </main>
+    <footer> &copy Anthony Lopez 2022 </footer>
+    <script>
+        let userAnswer1 = prompt('What is your name?');
+        console.log(userAnswer1);
+
+        let userAnswer2 = prompt('What state do you live in?');
+        console.log(userAnswer2);
+
+        let userAnswer3 = prompt('What is your favorite food?');
+        console.log(userAnswer3);
+
+        let userAnswer4 = prompt('What is your favorite color?');
+        console.log(userAnswer4);
+
+        alert('Hello, ' + userAnswer1 + ', in ' + userAnswer2 + '! ' + userAnswer3 + ' sound delicious! ' + userAnswer4 + ' is a really nice color!');
+    </script>
+</body>
 </html>
