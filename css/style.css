@@ -1,8 +1,22 @@
-header {
-    background-color: black;
+body {
+    background-color: grey;
 }
 
 h1 {
     color: greenyellow;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+section { 
+    background-color: greenyellow;
+    border: solid black;
+    margin: 5px;
+}
+
+footer {
     text-align: center;
 }
