@@ -82,7 +82,7 @@ if (usersScore === 5) {
 } else if (usersScore === 2 || usersScore === 1) {
   alert ('You guessed ' + usersScore + ' out of 5 questions correctly. You can do better than that!');
 } else {
-  alert('Oh no, you didnt guess any of the questions correctly...')
+  alert('Oh no, you didnt guess any of the questions correctly...');
 }
 
 // let userAnswer2 = prompt('What is your favorite game to play?');
