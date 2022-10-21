@@ -2,6 +2,12 @@ body {
     background-color: grey;
 }
 
+header { 
+    background-color: black;
+    border: solid greenyellow;
+    margin-bottom: 10px;
+}
+
 h1 {
     color: greenyellow;
     text-align: center;
@@ -12,11 +18,35 @@ h2 {
 }
 
 section { 
+    width: 50%;
+    height: 288px;
+    margin: 2px;
     background-color: greenyellow;
-    border: solid black;
-    margin: 5px;
+    border: 3px solid black;
 }
 
-footer {
+div {
+    display: flex;
+}
+
+
+main {
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+
+p {
+    padding: 30px;
     text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    border: solid greenyellow;
+    color: greenyellow;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+    /* display: inline-block; */
 }
