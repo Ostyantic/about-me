@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Anthony Lopez Lab01-b</title>
 </head>
@@ -11,37 +12,70 @@
         <h1>All About Anthony</h1>
     </header>
     <main>
-        <div>
-            <section class="box1">
+        <div class="top1">
+            <section class="topSection">
                 <h2>Biography</h2>
                 <p>My name is Anthony Lopez. I was born on February 12th, 1992 in Nyack, New York and raised in
                     Haverstraw, New York. I moved to Lawrenceville, Georgia in October, 2013 and have been living here ever since. I live with my partner Nicholas along with our two cats, Shadow & Onyx. My hobbies are playing video games, working out at the gym, and binge watching TV shows (currently watching Bojack Horseman on Netflix). During the day, I work for LG Electronics sister company, LG CNS as an Order Entry Specialist. I have recently transistion into this company September of this year, but I have been LG for 5 years. At night, I am Student at Code Fellows studying coding!</p>
             </section>
             
-            <section class="box2">
+            <section class="topSection">
                 <h2>Work Experience</h2>
-                <p>I work for LG Electronics sister company, LG CNS as an Order Entry Specialist for commercial
-                    air conditioning. Most of my day consists of entering orders, managing emails and providing customer care for a multitude of customers, distributors and sales. I have recently transistioned into this company September of this year, but I have been LG for 5 years. Prior to LG, I worked with Cola-Cola for 2 years in the order management department as Order Entry where I would manually enter orders as well as managed shipping schedules.</p>
+                <ul id="work">
+                    <li>LG CNS, Englewood, NJ 2022-Present</li>
+                        <ul>
+                            <li class="title">Order Entry Specialist, Smart Services</li>
+                        </ul>
+                    <li>LG Electronics, Alpharetta, GA 2018-2022</li>
+                        <ul>
+                            <li class="title">Order Entry Specialist, CAC Order Management</li>
+                        </ul>
+                    <li>Coca-Cola, Alpharetta, GA 2016-2018</li>
+                        <ul>
+                            <li class="title">Order Entry Representative</li>
+                        </ul>
+                </ul>
+                <!-- <p>I work for LG Electronics sister company, LG CNS as an Order Entry Specialist for commercial
+                    air conditioning. Most of my day consists of entering orders, managing emails and providing customer care for a multitude of customers, distributors and sales. I have recently transistioned into this company September of this year, but I have been LG for 5 years. Prior to LG, I worked with Cola-Cola for 2 years in the order management department as Order Entry where I would manually enter orders as well as managed shipping schedules.</p> -->
             </section>
         </div>
-        <div>
-            <section class="box3">
+        <div class="top2">
+            <section class="topSection">
                 <h2>Education</h2>
                 <ul>
-                    <li>Code Fellows - Certificate, Advanced Software Development in Python, 2023</li>
-                    <li>West Orange High School - Diploma, 2010</li>
+                    <li class="liEd">Code Fellows - Certificate, Advanced Software Development in Python, 2023</li>
+                    <li class="liEd">West Orange High School - Diploma, 2010</li>
                 </ul>
             </section>
             
-            <section class="box4">
+            <section class="topSection">
                 <h2>Goals</h2>
                 <p>My goal is to obtain my certificate for Advanced Software Development in Python and find a career as a Game Developer!</p>
             </section>
         </div>       
+        <div id="bottom">
+            <section class="bottomSection">
+                <div>                    
+                    <h2>My Top 10 Favorite Video games</h2>
+                    <ol>
+                        <li class="game">Parasite Eve (PS1)</li>
+                        <li class="game">Pokemon (Multiple)</li>
+                        <li class="game">Final Fantasy 14 Online (PC)</li>
+                        <li class="game">Octopath Traveler: Champions of the Continent (Mobile)</li>
+                        <li class="game">Lost Ark (PC)</li>
+                        <li class="game">Final Fantasy Record Keeper (Mobile)</li>
+                        <li class="game">The Legend of Zelda: Orcarina of Time (N64)</li>
+                        <li class="game">Super Smash Bros. Ultimate (Switch)</li>
+                        <li class="game">Silent Hill 2 (PS2)</li>
+                        <li class="game">League of Legends (PC)</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer> &copy Anthony Lopez 2022 </footer>
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>
