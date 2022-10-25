@@ -128,14 +128,18 @@ for (let i = 5; i > 0; i--){
   question7A = question7A.toLowerCase();
   console.log(usersName + '\'s answer to question 7 is: ', question7A);
 
+  // 1. delcares a new variable named "question7B" and gives it the false vaule.
   let question7B =  false;
 
+  // 2. runs a for loop that runs through each item in the array named favShow.
   for (let j = 0; j < favShow.length; j++) {
+    // 3. Evaulates if the users answer matches any of the items in the array for favShow and reassigns the value of quesition7B to true if it does.
     if (question7A === favShow[j]){
       question7B = true;
     }
   }
 
+  // 4. Final if statement that checks if question7B is true or false. If true, the user sees an alert that tells them their guess if corrent and they gain a point and the loop breaks. If false, they are alerted and told how many guesses they have left
   if (question7B) {
     alert('Yes! You are right!');
     usersScore++;
