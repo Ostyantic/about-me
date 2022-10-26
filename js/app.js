@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('hello world!');
+
 // Asking for the user's name, logging the user's name in to the console, and greeting the user
 
 let usersName = prompt('What is your name?');
