@@ -44,7 +44,6 @@ section {
     margin: auto;
 }
 
-
 main {
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -54,7 +53,6 @@ p {
     padding: 30px;
     text-align: center;
 }
-
 
 footer {
     background-color: black;
@@ -72,13 +70,6 @@ footer {
     width: 90%;
     margin: auto;
 }
-
-/* .olFav {
-    display: inline-block;
-    text-align: center;
-    list-style-type: decimal;
-    margin-left: 1rem;
-/ */
 
 #work {
     list-style-type: disc;
