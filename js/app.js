@@ -1,11 +1,8 @@
 'use strict';
 
-console.log('hello world!');
-
 // Asking for the user's name, logging the user's name in to the console, and greeting the user
 
 let usersName = prompt('What is your name?');
-console.log('The user\'s name is: ', usersName);
 alert('Hello, ' + usersName + '! Welcome to my page! Let\'s break the ice with a little guessing game! For questions 1-5, please answer "Yes/No" or "Y/N".');
 
 // Starting the user with a score of 0
@@ -17,7 +14,6 @@ hobby();
 function hobby() {
   let question1 = prompt('Is playing video games a hobby of mine?');
   question1 = question1.toLowerCase();
-  console.log(usersName + '\'s answer to question 1 is: ', question1);
 
   if (question1 === 'yes' || question1 === 'y') {
     alert('Ding! You are correct! I love playing video games!');
@@ -34,7 +30,6 @@ pets();
 function pets() {
   let question2 = prompt('Do I have any pets?');
   question2 = question2.toLowerCase();
-  console.log(usersName + '\'s answer to question 2 is: ', question2);
 
   if (question2 === 'yes' || question2 === 'y') {
     alert('You are right! I have 2 cats! Their names are Shadow and Onyx.');
@@ -51,7 +46,6 @@ seafood();
 function seafood() {
   let question3 = prompt('Do I like seafood?');
   question3 = question3.toLowerCase();
-  console.log(usersName + '\'s answer to question 3 is: ', question3);
 
   if (question3 === 'yes' || question3 === 'y') {
     alert('Eww No. Seafood is not for me!');
@@ -68,7 +62,6 @@ math();
 function math() {
   let question4 = prompt('Do I like math?');
   question4 = question4.toLowerCase();
-  console.log(usersName + '\'s answer to question 4 is: ', question4);
 
   if (question4 === 'yes' || question4 === 'y') {
     alert('Yup! I love the logic behind math!');
@@ -86,7 +79,6 @@ function travel() {
 
   let question5 = prompt('Have I traveled outside of the country before?');
   question5 = question5.toLowerCase();
-  console.log(usersName + '\'s answer to question 5 is: ', question5);
 
   if (question5 === 'yes' || question5 === 'y') {
     alert('Sadly no... I would love to visit Tokyo, Japan for my first time!');
@@ -108,7 +100,6 @@ function secretNumber() {
 
   for (let i = 3; i >= 0; i--) {
     let question6 = parseInt(prompt('Can you guess the number I am thinking from 1 to 10?'));
-    console.log(usersName + '\'s answer to question 6 is: ', question6);
     if (question6 === myNumber) {
       alert('Bingo! You guessed it!');
       usersScore++;
@@ -144,7 +135,6 @@ function myShows() {
   for (let i = 5; i > 0; i--) {
     let question7A = prompt('Which of the following shows are my favorite? Please choose one: "Game of Thrones", "Naruto", "BoJack Horseman", "The Walking Dead", "House of Cards", "Breaking Bad", "Attack on Titan", "Black Sails", "Orange is the New Black", "Castlevania"');
     question7A = question7A.toLowerCase();
-    console.log(usersName + '\'s answer to question 7 is: ', question7A);
 
     // 1. delcares a new variable named "question7B" and gives it the false vaule.
     let question7B = false;
