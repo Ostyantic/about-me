@@ -122,12 +122,6 @@ if (question6 !== myNumber) {
 
 let favShow = ['bojack horseman', 'attack on titan', 'black sails', 'castlevania'];
 
-// for loop to log all of the items in the array in to the console
-
-for (let i = 0; i < favShow.length; i++) {
-  console.log(favShow[i]);
-}
-
 myShows();
 // Question 7 - This is a for loop that loops a max of 6 times. The user is asked to guess a favorite show of mine from a list provided on in the prompt window. If the user guesses wrong, they are alerted and told how many guesses they have left. After 6 wrong guesses, the loop ends.
 function myShows() {
